@@ -1,0 +1,19 @@
+p, h2 {
+  margin: 0;
+}
+.title {
+  font-weight: bold;
+}
+.category {
+  font-style: italic;
+}
+
+a {
+  color: inherit; // Utiliza el mismo color que el botón
+  text-decoration: none; // Sin subrayado
+  cursor: pointer; // Mantenemos el cursor de puntero para el enlace
+
+  &:hover {
+    text-decoration: underline; // Agrega subrayado al pasar el ratón
+  }
+}
